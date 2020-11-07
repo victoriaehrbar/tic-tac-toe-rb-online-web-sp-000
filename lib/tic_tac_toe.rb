@@ -94,4 +94,6 @@ def winner(board)
 end
 
 def play(board)
-end
+  while !over?(board)
+    turn(board)
+  end
